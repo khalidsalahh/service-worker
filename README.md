@@ -17,7 +17,7 @@ import Service from "service";
     3: parameter is optional => and it is the service-worker type;
     4: parameter is optional => and it is the update of the service-worker via cache
   */ 
-  const serviceState = service.init.Register("/"); // Register return a promise of the service state
+  const serviceState = service.init.Register("/sw.js"); // Register return a promise of the service state
   
 })()
 ```
