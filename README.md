@@ -12,7 +12,7 @@ import Service from "service";
   }
   
   /* Register take 4 parameter:
-    1: parameter is requied => and it is the file;
+    1: parameter is required => and it is the file;
     2: parameter is optional => and it is the service-worker scope;
     3: parameter is optional => and it is the service-worker type;
     4: parameter is optional => and it is the update of the service-worker via cache
